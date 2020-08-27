@@ -1,8 +1,6 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
-    *{
-        width:100%;
-    }
+   
     .lesson {
          flex-wrap: wrap;
       margin-bottom: 50px;
@@ -22,9 +20,7 @@
   
   /* For Smartphones */
   @media all and (max-width: 670px) {
-        *{
-        width:100%;
-    }
+     
     .lesson {
       width: fit-content;
       align-items: center;
@@ -98,9 +94,7 @@
 
   
   @media all and (max-width: 600px) {
-        *{
-        width:100%;
-    }
+      
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
