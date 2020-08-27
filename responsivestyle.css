@@ -43,7 +43,7 @@
 
     .top-wrapper {
       text-align: center;
-      width: 200%;
+         width: fit-content;
         background-size:cover;
     }
     
