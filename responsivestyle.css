@@ -1,9 +1,9 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
-   
     .lesson {
          flex-wrap: wrap;
       margin-bottom: 50px;
+      width: fit-content;
     }
     
     .top-wrapper h1 {
@@ -20,7 +20,6 @@
   
   /* For Smartphones */
   @media all and (max-width: 670px) {
-     
     .lesson {
       width: fit-content;
       align-items: center;
@@ -29,7 +28,6 @@
     .lessons {
       flex-wrap: wrap;
    margin-bottom: 50px;
-        width:fit-content;
    align-items: center;
    margin-left: -4% ;
  }
@@ -46,11 +44,12 @@
 
     .top-wrapper {
       text-align: center;
-      max-width:fit-content;
-        background-size:cover;
-        
+      width: fit-content;
+      max-width: 100%;
     }
-    
+    .top-wrapper img{
+      width: max-content;
+    }
     .top-wrapper h1 {
       font-size: 24px;
       line-height: 36px;
@@ -94,7 +93,6 @@
 
   
   @media all and (max-width: 600px) {
-      
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
