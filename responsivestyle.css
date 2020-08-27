@@ -3,7 +3,6 @@
     .lesson {
          flex-wrap: wrap;
       margin-bottom: 50px;
-      width: fit-content;
     }
     
     .top-wrapper h1 {
@@ -44,12 +43,10 @@
 
     .top-wrapper {
       text-align: center;
-      width: fit-content;
-      max-width: 100%;
+      width: 200%;
+        background-size:cover;
     }
-    .top-wrapper img{
-      width: max-content;
-    }
+    
     .top-wrapper h1 {
       font-size: 24px;
       line-height: 36px;
@@ -92,7 +89,7 @@
   }
 
   
-  @media all and (max-width: 600px) {
+  @media all and (max-width: 670px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
