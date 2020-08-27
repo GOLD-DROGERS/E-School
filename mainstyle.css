@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  /*Navbar*/
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 3px;
+    float:right;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+/*container*/
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .container1{
+    max-width: 970px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  /*top section*/
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://images.pexels.com/photos/7102/notes-macbook-study-conference.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size:fill;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+  }
+  .top-wrapper h1 {
+    opacity: 1.7;
+    font-size: 55px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+ 
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+ 
+  /*below-wrapper*/
+  .below-wrapper{
+    padding: 180px 0 100px 0;
+   
+    background-size: auto;
+    background-repeat: no-repeat;
+    color:whitesmoke;
+    background-image: url(https://images.pexels.com/photos/4497758/pexels-photo-4497758.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    text-align: left;
+    width: 100%;
+  }
+  
+  .below-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 79px;
+    margin-left: -79;
+    text-align: left;
+  }
+  .below-wrapper .btn{
+    margin-top:-2%;
+   
+    background-color:  #278ea5;
+    cursor: pointer;
+    box-shadow: 0 7px   #278ea5;
+    align-items: center;
+  }
+ 
+ 
+  /*button/btn-wrapper*/
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+ 
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 40%;
+    text-align: center;
+    padding: 15px 40px;
+    background-color: #2d6cdf;
+    cursor: pointer;
+    box-shadow: 0 7px  #2d6cdf;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .btn:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  .btn1 {
+    padding: 12px 14px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 2%;
+    text-align: center;
+    padding: 15px 40px;
+    background-color: #21e6c1!important;
+    cursor: pointer;
+  
+  }
+  .btn1:hover {
+    opacity: 1;
+  }
+  
+  .btn1:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+ 
+  
+  
+  
+  
+  
+ /*lessons*/
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+    display: flex;
+    flex: auto;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+    
+  }
+  .lesson .l{
+    margin-top: 17px;
+  }
+  
+  
+  .lesson-icon {
+    position: relative;
+  }
+ /*container-lesson*/
+ .lesson-icon  img {
+  border-radius: 8px;
+  background: gray;
+}
+
+  .lesson-icon p {
+    position: absolute;
+    top: 40%;
+    font-size: 29px;
+    width: 100%;
+    opacity: 111;
+    font-weight: 500;
+    color: #ccf2f7;
+  }
+  .lesson-icon   .att{
+    position: absolute;
+    top: -5%;
+    font-size: 29px;
+    width: 100%;
+    opacity: 111;
+    font-weight: 500;
+    color: #e2f3f5;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+ 
+  /*contant us*/
+.contact {
+  background: #f0f0f0;
+}
+.contact-form {
+  padding-top: 100px;
+  margin-left: 5%;
+
+}
+
+.contact-form input ,textarea{
+width:400px;
+margin-top:10px;
+margin-bottom:30px;
+padding:20px;
+font-size:18px;
+border:1px solid #dee7ec;
+}
+
+.contact-submit{
+    background:#dee1ec;
+    color:#071e3d;
+  }
+  
+  
+
+/*footer*/
+ footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
