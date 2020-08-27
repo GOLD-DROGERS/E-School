@@ -69,7 +69,7 @@
     background-size: fill;
     color: whitesmoke;
     text-align: center;
-    width: 100%;
+    width: fit-content;
   }
   .top-wrapper h1 {
     opacity: 1.7;
